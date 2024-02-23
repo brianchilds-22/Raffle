@@ -1,0 +1,94 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ff4081;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+/* Form styles */
+
+#entry-form label {
+  font-size: 20px;
+  padding-bottom: 10px;
+  font-weight: 700;
+}
+
+#entry-form input[type="text"] {
+  font-size: 20px;
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  margin: 10px 0;
+}
+
+#entry-form button {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #ff4081;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#entry-form button:hover {
+  background-color: #d81b60;
+}
+
+/* List styles */
+#participants {
+  list-style-type: none;
+  /* padding: 0; */
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+
+  li {
+    padding: 10px;
+  }
+}
+
+/* Winner display styles */
+#winner {
+  font-size: 20px;
+}
+
+/* Draw button styles */
+#draw-btn {
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #ff4081;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  /* float: right; */
+}
+
+#draw-btn:hover {
+  background-color: #d81b60;
+}
