@@ -27,12 +27,18 @@ function drawWinner() {
     const winnerName = participants[randomIndex].textContent;
     document.getElementById(
       "winner"
-    ).innerHTML = `<p>🎉 Winner: ${winnerName} 🍰</p>`;
+    ).innerHTML = `<p><p class="winner-name">${winnerName}</p> Congratulations you are the Winner </p>`;
   } else {
     document.getElementById("winner").innerHTML = "<p>No participants yet!</p>";
   }
+}
+// Function to handle reset button click
+function handleReset() {
+  document.getElementById("participants").innerHTML = ""; // Clear participants list
+  document.getElementById("winner").innerHTML = ""; // Clear winner display
 }
 
 // Event listeners
 document.getElementById("submit-btn").addEventListener("click", handleSubmit);
 document.getElementById("draw-btn").addEventListener("click", drawWinner);
+document.getElementById("reset-btn").addEventListener("click", handleReset);
