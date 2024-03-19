@@ -27,22 +27,8 @@ Alternatively, you can access the live version of the web app [here](#).
 
 ## Usage
 
-1. Enter your name in the provided input field.
-2. Click the "Submit" button to participate in the raffle.
+1. Enter your name in the provided input field (Your Name).
+2. Click the "Enter" button to participate in the raffle.
 3. Once all participants have entered, click the "Draw Winner" button to select a random winner.
-4. The winner's name will be displayed along with celebratory emojis.
+4. The winner's name will be displayed in the "Winner" section.
 5. To reset the raffle and start over, click the "Reset Raffle" button.
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
-
-1. Fork this repository.
-2. Create a new branch for your feature or enhancement.
-3. Make your changes and commit them with descriptive commit messages.
-4. Push your changes to your fork.
-5. Submit a pull request to the main repository's `main` branch.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
